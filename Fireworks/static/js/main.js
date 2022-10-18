@@ -73,7 +73,7 @@ function animationEffect() {
     fireworksObject.restore();
     let newTime = new Date();
     if (newTime - lastTime > getRandom(10, 1600) + (window.innerHeight - 767) / 2) {
-        let random = Math.random() * 100 > 15;
+        let random = Math.random() * 100 > 30;
         let x = getRandom(0, (fireworksCanvas.width));
         let y = getRandom(0, 400);
         if (random) {
